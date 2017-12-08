@@ -3,16 +3,17 @@
 模型对载具及动物的检测
 <p align="center">
 <img src="output/Aeroplane.png" height="300px">
-<img src="output/Bicycle.png" height="300px">
-
-<img src="output/Cat.png" height="300px">
 <img src="output/Dog.png" height="300px">
+
+<img src="output/Bicycle.png" height="300px">
+<img src="output/Cat.png" height="300px">
+
 </p>
 
 模型的视频检测效果
 <p align="center">
 <img src="output/Car.png" height="300px">
-<img src="output/Car.gif" height="300px">
+<img src="output/Car.gif">
 </p>
 
 ## 依赖
