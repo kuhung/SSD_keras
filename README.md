@@ -70,6 +70,7 @@ python videotest_example.py hy.mp4
 
 ---
 参考资料
+
 [SSD: Single Shot MultiBox Detector](http://arxiv.org/abs/1512.02325)
 
 [论文阅读：SSD: Single Shot MultiBox Detector](http://blog.csdn.net/u010167269/article/details/52563573)
