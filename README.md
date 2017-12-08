@@ -53,9 +53,11 @@ cp weights_SSD300.hdf5 into SSD_keras
 ```
 
 - 对于图片的检测
+
 参考SSD.ipynb
 
 - 若要剪切图片为下一步处理做准备
+
 参考SSD_crop.py
 
 - 检测视频
@@ -66,8 +68,8 @@ python videotest_example.py hy.mp4
 
 
 
-
-## 参考资料
+---
+参考资料
 [SSD: Single Shot MultiBox Detector](http://arxiv.org/abs/1512.02325)
 
 [论文阅读：SSD: Single Shot MultiBox Detector](http://blog.csdn.net/u010167269/article/details/52563573)
