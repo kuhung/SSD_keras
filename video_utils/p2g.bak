@@ -1,0 +1,14 @@
+import imageio
+import os
+import sys
+from tqdm import *
+
+files=os.listdir(sys.argv[1])
+files.sort(key= lambda x:int(x[:-4]))
+
+with imageio.get_writer(sys.argv[2], mode='I') as writer:
+    for filename in tqdm(files):
+	#print filename
+        image = imageio.imread(os.path.join(sys.argv[1],filename))
+        writer.append_data(image)
+
