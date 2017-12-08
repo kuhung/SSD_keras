@@ -1,18 +1,36 @@
-[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](LICENSE)
+##Single Shot MultiBox Detector to Keras version.
 
-## A port of SSD: Single Shot MultiBox Detector to Keras framework.
-Refer to [arXiv paper](http://arxiv.org/abs/1512.02325).
+模型对载具及动物的检测
+<p align="center">
+<img src="output/Aeroplane.png" height="300px">
+<img src="output/Bicycle.png" height="300px">
 
-- For forward pass for 300x300 model, please, follow `SSD.ipynb` for examples. 
-- For training procedure for 300x300 model, please, follow `SSD_training.ipynb` for examples. 
-- Moreover, in `testing_utils` folder there is a useful script to test `SSD` on video or on camera input.
+<img src="output/Cat.png" height="300px">
+<img src="output/Dog.png" height="300px">
+</p>
 
----
-- Weights are ported from the original models and are available [here](https://mega.nz/#F!7RowVLCL!q3cEVRK9jyOSB9el3SssIA). You need `weights_SSD300.hdf5`, `weights_300x300_old.hdf5` is for the old version of architecture with 3x3 convolution for `pool6`.
+模型的视频检测效果
+<p align="center">
+<img src="output/Car.png" height="300px">
+<img src="output/Car.gif" height="300px">
+</p>
+
+## 依赖
+```
+cv2==3.3.0
+keras==1.2.2
+matplotlib==2.1.0
+tensorflow==1.3.0
+numpy==1.13.3
+```
+如果想跑通视频模块，则需额外`pip install scikit-video`
+
+## 使用说明
+
+- Download model weight `weights_SSD300.hdf5`[here](https://github.com/kuhung/SSD_keras/releases)
 
 
-- Weights for chinese [Evernote link](https://app.yinxiang.com/shard/s51/nl/10565191/1944fa71-d815-46b3-ac3b-56ca58ca5b47?title=weights_SSD300.hdf5)
 
-
-This code was tested with `Keras` v1.2.2, `Tensorflow` v1.0.0, `OpenCV` v3.1.0-dev
-
+## 参考资料
+[arXiv paper](http://arxiv.org/abs/1512.02325)
+[rykov8/ssd_keras](https://github.com/rykov8/ssd_keras)
