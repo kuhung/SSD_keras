@@ -2,19 +2,16 @@
 
 模型对载具及动物的检测
 <p align="center">
-<img src="output/Aeroplane.png" height="300px">
+<img src="output/Aeroplane.png" height="300px" weight="500px">
 <img src="output/Dog.png" height="300px">
 
-<img src="output/Bicycle.png" height="300px">
+<img src="output/Bicycle.png" height="300px" weight="500px">
 <img src="output/Cat.png" height="300px">
 
 </p>
 
 模型的视频检测效果
-<p align="center">
-<img src="output/Car.png" height="300px">
-<img src="output/Car.gif">
-</p>
+![Car in Video](https://github.com/kuhung/SSD_keras/blob/master/output/car.gif)
 
 ## 依赖
 ```
