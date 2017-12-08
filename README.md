@@ -2,11 +2,11 @@
 
 模型对载具及动物的检测
 <p align="center">
-<img src="output/Aeroplane.png" height="300px" width="500px">
-<img src="output/Dog.png" height="300px">
+<img src="output/Aeroplane.png" height="300">
+<img src="output/Dog.png" height="300">
 
-<img src="output/Bicycle.png" height="300px" width="500px">
-<img src="output/Cat.png" height="300px">
+<img src="output/Bicycle.png" height="300">
+<img src="output/Cat.png" height="300">
 
 </p>
 
