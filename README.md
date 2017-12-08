@@ -1,4 +1,4 @@
-##Single Shot MultiBox Detector to Keras version.
+## Single Shot MultiBox Detector to Keras version.
 
 模型对载具及动物的检测
 <p align="center">
@@ -16,7 +16,10 @@
 
 
 模型的视频检测效果
-![Car in Video](https://github.com/kuhung/SSD_keras/blob/master/output/car.gif)
+<p align="center">
+<img src="https://github.com/kuhung/SSD_keras/blob/master/output/car.gif">
+</p>
+
 
 ## 依赖
 ```
