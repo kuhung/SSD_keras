@@ -1,4 +1,4 @@
-# Single Shot MultiBox Detector to Keras version.
+# Single Shot MultiBox Detector Keras version.
 
 SSD是一种Object Detection方法。本文是基于论文[SSD: Single Shot MultiBox Detector](http://arxiv.org/abs/1512.02325)，实现的keras版本。
 
