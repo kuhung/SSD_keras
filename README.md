@@ -54,11 +54,11 @@ cp weights_SSD300.hdf5 into SSD_keras
 
 - 对于图片的检测
 
-参考`SSD.ipynb`
+参考[SSD.ipynb](SSD.ipynb)
 
 - 若要剪切图片为下一步处理做准备
 
-参考`SSD_crop.py`
+参考[SSD_crop.py](SSD_crop.py)
 
 - 检测视频
 ```
