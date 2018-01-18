@@ -1,0 +1,26 @@
+<annotation>
+	<folder>train</folder>
+	<filename>P71210-140228.jpg</filename>
+	<path>/home/kuhung/Desktop/SSD_train/data/train/P71210-140228.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>984</width>
+		<height>1312</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>t</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>692</xmin>
+			<ymin>173</ymin>
+			<xmax>808</xmax>
+			<ymax>305</ymax>
+		</bndbox>
+	</object>
+</annotation>

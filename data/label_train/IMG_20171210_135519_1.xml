@@ -1,0 +1,26 @@
+<annotation>
+	<folder>train</folder>
+	<filename>IMG_20171210_135519_1.jpg</filename>
+	<path>/home/kuhung/Desktop/SSD_train/data/train/IMG_20171210_135519_1.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1216</width>
+		<height>1216</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>t</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>830</xmin>
+			<ymin>162</ymin>
+			<xmax>950</xmax>
+			<ymax>291</ymax>
+		</bndbox>
+	</object>
+</annotation>
