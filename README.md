@@ -9,9 +9,9 @@
 为了模型更好的训练,我们简化了训练样本,对下列三种标志进行识别.训练样本总计138张,每类约46张.
 
 <p align="center">
-<img src="img/x.png" height="300">
-<img src="img/p.png" height="300">
-<img src="img/t.png" height="300">
+<img src="img/x.png" height="100">
+<img src="img/p.png" height="100">
+<img src="img/t.png" height="100">
 </p>
 
 
@@ -55,7 +55,7 @@
 </annotation>
 ```
 
-**关键信息是 文件名,种类名以及4个坐标点**具体的文件路径不重要,后面会单独定义.
+**关键信息是 文件名,种类名以及4个坐标点**,具体的文件路径不重要,后面会单独定义.
 
 ### 格式生成
 ```
@@ -100,7 +100,7 @@ cp weights_SSD300.hdf5 into SSD_keras
 ```
 
 ### 核心脚本
-- 进入 [SSD_training](ssd_keras/ssd_keras.ipynb)
+- 进入 [ssd_keras/SSD_training.ipynb](ssd_keras/SSD_training.ipynb)
 
 1. 修改类别数和类别名称
 ```Python
@@ -115,7 +115,7 @@ path_prefix = '../data/train/'   #path to your data
 
 ```
 3. 训练模型
-在完成上述修改后,通过逐步运行  `ssd_keras.ipynb`, 自定义的SSD模型就开始训练了.
+在完成上述修改后,通过逐步运行  `SSD_training.ipynb`, 自定义的SSD模型就开始训练了.
 
 ---
 
@@ -127,9 +127,7 @@ path_prefix = '../data/train/'   #path to your data
 Epoch 1/5
 108/110 [============================>.] - ETA: 2s - loss: 3.9356Epoch 00000: saving model to ./checkpoints/weights.00-3.50.hdf5
 110/110 [==============================] - 127s - loss: 3.9005 - val_loss: 3.4982
-
 ...
-
 Epoch 5/5
 108/110 [============================>.] - ETA: 1s - loss: 1.8918Epoch 00004: saving model to ./checkpoints/weights.04-2.13.hdf5
 110/110 [==============================] - 116s - loss: 1.8814 - val_loss: 2.1328
@@ -138,7 +136,7 @@ Epoch 5/5
 ### 测试集的效果
 
 <p align="center">
-<img src="img/result.png" height="500">
+<img src="img/result.png" height="600">
 </p>
 
 0.96的置信度,判断为第三类(红绿灯类).
