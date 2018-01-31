@@ -17,7 +17,7 @@
 
 - 完整大图示例
 <p align="center">
-<img src="img/sample.png" height="400">
+<img src="img/sample.jpg" height="400">
 </p>
 
 ## Step 1. 数据准备
