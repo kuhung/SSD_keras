@@ -34,7 +34,7 @@ SSD是一种Object Detection方法。本文是基于论文[SSD: Single Shot Mult
 ### 所需依赖
 ```
 cv2==3.3.0
-keras==1.2.2
+keras==2.2.0
 matplotlib==2.1.0
 tensorflow==1.3.0
 numpy==1.13.3
