@@ -91,7 +91,7 @@ Python get_data_from_XML.py /home/kuhung/Desktop/SSD_train/data/label_train/
 ### 依赖
 ```
 cv2==3.3.0
-keras==2.2.0
+keras==1.2.2
 matplotlib==2.1.0
 tensorflow==1.3.0
 numpy==1.13.3
